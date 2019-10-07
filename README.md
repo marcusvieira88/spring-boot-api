@@ -1,4 +1,4 @@
-# Getting Started
+# Spring API Example Documentation
 
 ### Reference Documentation
 Below the technologies used in this project:
