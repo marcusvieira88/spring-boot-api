@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  spring-boot-api:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=spring-boot-api
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
